@@ -11,8 +11,6 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ApiResource()
  * @ORM\Entity(repositoryClass=PatientRepository::class)
- * @ORM\InheritanceType("JOINED")
- * @ORM\MappedSuperclass
  */
 class Patient extends User
 {
